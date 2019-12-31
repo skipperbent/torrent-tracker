@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  tracker:
+    build: .
+    ports:
+      - 8081:80
+    volumes:
+      - tracker-peers-data:/var/www/app/data/

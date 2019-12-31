@@ -66,7 +66,7 @@ define('__NO_SEED_P2P', true);
  * On Linux, you should use /dev/shm as it is very fast.
  * On Windows, you will need to change this value to some other valid path such as C:/Peers.txt
  */
-define('__LOCATION_PEERS', 'peers.txt');
+define('__LOCATION_PEERS', '/var/www/app/data/peers.txt');
 
 /**
  * Should we enable short announces?
